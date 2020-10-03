@@ -1,114 +1,6 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-.navigation {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    min-height: 8vh;
-    background-color: #434345;
-    font-family: Arial;
-    font-size: 11px;
-    font-weight: 400;
-}
-
-.logo {
-    cursor: pointer;
-    margin-right: auto;
-    padding: 0px 20px;
-    max-width: 300px;
-    min-width: 150px;
-}
-
-.nav-links {
-    list-style: none;
-}
-
-    .nav-links li {
-        display: inline-block;
-        padding: 0px 20px;
-        margin: 10px;
-    }
-
-        .nav-links li a {
-            color: #B0D0B9;
-            text-decoration: none;
-            letter-spacing: 2px;
-            font-weight: 400;
-            font-size: 11px;
-            font-family: Arial;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-            .nav-links li a .name {
-                color: white;
-            }
-
-            .nav-links li a:hover {
-                color: white;
-                text-decoration: none;
-                cursor: pointer;
-            }
-/* Burger Icon */
-.burger {
-    display: none;
-    cursor: pointer;
-}
-
-    .burger div {
-        width: 25px;
-        height: 3px;
-        background-color: #B0D0B9;
-        margin: 5px;
-        transition: all 0.3s ease;
-    }
-
-.nav-active {
-    transform: translateX(0%);
-}
-/* Link Opacity Animation */
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-/* Burger Icon Animation */
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px,6px);
-}
-
-.toggle .line2 {
-    opacity: 0;
-}
-
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px,-6px);
-}
-
-.sub-menu-1 {
-    display: none;
-}
-
-.setting-icon {
-    font-size: 21px;
-    transform: translateY(4px);
-}
-
 
 
 a.navbar-brand {
@@ -129,9 +21,9 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #B0D0B9;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 /* Sticky footer styles
@@ -169,8 +61,10 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .footer {
   position: absolute;

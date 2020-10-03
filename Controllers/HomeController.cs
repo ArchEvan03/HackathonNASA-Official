@@ -27,7 +27,26 @@ namespace HackathonNASA.Controllers
         {
             return View();
         }
-
+        public IActionResult Transportation()
+        {
+            return View();
+        }
+        public IActionResult Electricity()
+        {
+            return View();
+        }
+        public IActionResult Industry()
+        {
+            return View();
+        }
+        public IActionResult CommRes()
+        {
+            return View();
+        }
+        public IActionResult Agriculture()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
